@@ -1,0 +1,11 @@
+[Unit]
+Description=this is a silly weather service
+
+[Service]
+Type=simple
+ExecStart=/home/vagrant/bin/weather_script
+WorkingDirectory=/home/vagrant/bin/
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

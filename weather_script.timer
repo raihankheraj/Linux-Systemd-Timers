@@ -1,0 +1,10 @@
+[Unit]
+Description=timer for a silly weather service
+
+[Timer]
+Unit=weather_script.service
+OnBootSec=10s
+OnUnitActiveSec=60min
+
+[Install]
+WantedBy=timers.target
