@@ -3,8 +3,7 @@ Weather-Service with Timer
 ---
 Helpful weather service for users running *systemd* on Linux OS
 ---
--Timer refreshes weather file every 60 mins for destination identified from host IP address
--To use the service, you must configure the weather_script, weather_script.service, and weather_script.timer according to the following instructions:
+Timer refreshes weather file every 60 mins for destination identified from host IP address. To use the service, you must configure the weather_script, weather_script.service, and weather_script.timer according to the following instructions:
 
 Weather Script:
 1. Create a bin folder in your `$HOME` directory if it does not already exist
