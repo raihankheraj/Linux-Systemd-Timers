@@ -3,7 +3,7 @@ Description=timer for a silly weather service
 
 [Timer]
 Unit=weather_script.service
-OnBootSec=60min
+OnBootSec=30s
 OnUnitActiveSec=60min
 
 [Install]
